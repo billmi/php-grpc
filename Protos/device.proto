@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package protobuf;
+
+option php_namespace="PointsmartV3\\Request";
+option php_metadata_namespace="PointsmartV3\\MetaData";
+
+service Device {
+        rpc Ping(JsonReply)                                   returns (JsonReply) {}    //服务Ping接口
+}
+
+
+message  JsonReply{
+    string result = 1;
+}

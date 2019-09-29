@@ -1,0 +1,31 @@
+{
+  "name": "grpc",
+  "description": "mie",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php": "^5.2|^7.0",
+    "ext-mbstring": "*",
+    "ext-xml": "*",
+    "ext-xmlwriter": "*",
+    "google/protobuf": "^3.9",
+    "grpc/grpc": "^1.22"
+  },
+  "authors": [
+    {
+      "name": "Bill",
+      "email": "297876771@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PointsmartV3\\Request\\": "PointsmartV3/Request/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
